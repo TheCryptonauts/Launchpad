@@ -746,48 +746,37 @@ gltfShape4.isPointerBlocker = true
 gltfShape4.visible = true
 wallcornerGlass.addComponentOrReplace(gltfShape4)
 
-const wallcornerGlass2 = new Entity('wallcornerGlass2')
-engine.addEntity(wallcornerGlass2)
-wallcornerGlass2.setParent(_scene)
-const transform67 = new Transform({
-  position: new Vector3(32, 0, 16),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-wallcornerGlass2.addComponentOrReplace(transform67)
-wallcornerGlass2.addComponentOrReplace(gltfShape4)
-
 const windowFullWall = new Entity('windowFullWall')
 engine.addEntity(windowFullWall)
 windowFullWall.setParent(_scene)
 windowFullWall.addComponentOrReplace(gltfShape3)
-const transform68 = new Transform({
+const transform67 = new Transform({
   position: new Vector3(32, 0, 0.5),
   rotation: new Quaternion(-6.692902301134779e-16, -0.7071068286895752, 8.429368136830817e-8, -0.7071068286895752),
-  scale: new Vector3(6.764133453369141, 1, 1.000002384185791)
+  scale: new Vector3(7.5358686447143555, 2.971907615661621, 1.0000035762786865)
 })
-windowFullWall.addComponentOrReplace(transform68)
+windowFullWall.addComponentOrReplace(transform67)
 
 const windowFullWall16 = new Entity('windowFullWall16')
 engine.addEntity(windowFullWall16)
 windowFullWall16.setParent(_scene)
 windowFullWall16.addComponentOrReplace(gltfShape3)
-const transform69 = new Transform({
+const transform68 = new Transform({
   position: new Vector3(0.5, 0, 0.5),
   rotation: new Quaternion(-6.692902301134779e-16, -0.7071068286895752, 8.429368136830817e-8, -0.7071068286895752),
-  scale: new Vector3(3.2500154972076416, 1, 1.0000026226043701)
+  scale: new Vector3(3.2500176429748535, 2.983715534210205, 1.0000028610229492)
 })
-windowFullWall16.addComponentOrReplace(transform69)
+windowFullWall16.addComponentOrReplace(transform68)
 
 const nft = new Entity('nft')
 engine.addEntity(nft)
 nft.setParent(_scene)
-const transform70 = new Transform({
+const transform69 = new Transform({
   position: new Vector3(28.441194534301758, 2.527409553527832, 0.5),
   rotation: new Quaternion(5.592420684798639e-16, 1, -1.1920926823449918e-7, 0),
   scale: new Vector3(11.249999046325684, 7.826274871826172, 1.0000001192092896)
 })
-nft.addComponentOrReplace(transform70)
+nft.addComponentOrReplace(transform69)
 const nftShape = new NFTShape("ethereum://0x959e104e1a4db6317fa58f8295f586e1a978c297/2633")
 nftShape.withCollisions = true
 nftShape.isPointerBlocker = true
@@ -798,12 +787,12 @@ nft.addComponentOrReplace(nftShape)
 const nft2 = new Entity('nft2')
 engine.addEntity(nft2)
 nft2.setParent(_scene)
-const transform71 = new Transform({
+const transform70 = new Transform({
   position: new Vector3(8.323155403137207, 4.6426262855529785, 0.5),
   rotation: new Quaternion(4.783441116216211e-15, 1, -1.1920928244535389e-7, 0),
   scale: new Vector3(7.98853874206543, 10.948284149169922, 1)
 })
-nft2.addComponentOrReplace(transform71)
+nft2.addComponentOrReplace(transform70)
 const nftShape2 = new NFTShape("ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/3591160245065073281550756981133883697253055043835827444440560568323652190209")
 nftShape2.withCollisions = true
 nftShape2.isPointerBlocker = true
@@ -814,12 +803,12 @@ nft2.addComponentOrReplace(nftShape2)
 const nft3 = new Entity('nft3')
 engine.addEntity(nft3)
 nft3.setParent(_scene)
-const transform72 = new Transform({
+const transform71 = new Transform({
   position: new Vector3(3.089871883392334, 7.397838115692139, 0.5),
   rotation: new Quaternion(9.155853565546643e-15, -1, 1.1920928244535389e-7, -4.470348358154297e-8),
   scale: new Vector3(7.215183258056641, 10.513875961303711, 1)
 })
-nft3.addComponentOrReplace(transform72)
+nft3.addComponentOrReplace(transform71)
 const nftShape3 = new NFTShape("ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/3591160245065073281550756981133883697253055043835827444440560604607535906817")
 nftShape3.withCollisions = true
 nftShape3.isPointerBlocker = true
@@ -830,12 +819,12 @@ nft3.addComponentOrReplace(nftShape3)
 const nft4 = new Entity('nft4')
 engine.addEntity(nft4)
 nft4.setParent(_scene)
-const transform73 = new Transform({
+const transform72 = new Transform({
   position: new Vector3(13.5, 7.316403388977051, 0.5),
   rotation: new Quaternion(6.691670821108589e-15, -1, 1.1920927533992653e-7, -7.450580596923828e-8),
   scale: new Vector3(9, 10.783526420593262, 1)
 })
-nft4.addComponentOrReplace(transform73)
+nft4.addComponentOrReplace(transform72)
 const nftShape4 = new NFTShape("ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/3591160245065073281550756981133883697253055043835827444440560589214373117953")
 nftShape4.withCollisions = true
 nftShape4.isPointerBlocker = true
@@ -846,12 +835,12 @@ nft4.addComponentOrReplace(nftShape4)
 const nft5 = new Entity('nft5')
 engine.addEntity(nft5)
 nft5.setParent(_scene)
-const transform74 = new Transform({
+const transform73 = new Transform({
   position: new Vector3(19.50718879699707, 4.773031711578369, 0.5),
   rotation: new Quaternion(6.635589193187356e-15, -1, 1.1920928244535389e-7, 0),
   scale: new Vector3(10.000000953674316, 11.122260093688965, 1.0000009536743164)
 })
-nft5.addComponentOrReplace(transform74)
+nft5.addComponentOrReplace(transform73)
 const nftShape5 = new NFTShape("ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/3591160245065073281550756981133883697253055043835827444440560601309001023489")
 nftShape5.withCollisions = true
 nftShape5.isPointerBlocker = true
@@ -862,42 +851,42 @@ nft5.addComponentOrReplace(nftShape5)
 const twitterButtonLink = new Entity('twitterButtonLink')
 engine.addEntity(twitterButtonLink)
 twitterButtonLink.setParent(_scene)
-const transform75 = new Transform({
+const transform74 = new Transform({
   position: new Vector3(29.476959228515625, 0, 7.9737548828125),
   rotation: new Quaternion(6.322026990801533e-8, -0.7071068286895752, 2.1073411460292846e-8, 0.7071068286895752),
-  scale: new Vector3(4.596212863922119, 6.75, 1.000001072883606)
+  scale: new Vector3(4.596214771270752, 10.24222469329834, 1.0000015497207642)
 })
-twitterButtonLink.addComponentOrReplace(transform75)
+twitterButtonLink.addComponentOrReplace(transform74)
 
 const discordButtonLink = new Entity('discordButtonLink')
 engine.addEntity(discordButtonLink)
 discordButtonLink.setParent(_scene)
-const transform76 = new Transform({
+const transform75 = new Transform({
   position: new Vector3(29, 0, 12.5),
-  rotation: new Quaternion(-2.427593673973746e-15, -0.7071067690849304, 8.429368847373553e-8, 0.7071067690849304),
-  scale: new Vector3(4.500004768371582, 6, 0.9999998807907104)
+  rotation: new Quaternion(-2.427593885731983e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(4.500005722045898, 10.290130615234375, 1.0000001192092896)
 })
-discordButtonLink.addComponentOrReplace(transform76)
+discordButtonLink.addComponentOrReplace(transform75)
 
 const externalLink = new Entity('externalLink')
 engine.addEntity(externalLink)
 externalLink.setParent(_scene)
-const transform77 = new Transform({
-  position: new Vector3(2.5, 0, 4),
+const transform76 = new Transform({
+  position: new Vector3(2, 0, 5.5),
   rotation: new Quaternion(-2.4085271740892887e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
-  scale: new Vector3(4.500002861022949, 6.5, 1.0000004768371582)
+  scale: new Vector3(4.500003814697266, 6.5, 1.0000007152557373)
 })
-externalLink.addComponentOrReplace(transform77)
+externalLink.addComponentOrReplace(transform76)
 
 const nft6 = new Entity('nft6')
 engine.addEntity(nft6)
 nft6.setParent(_scene)
-const transform78 = new Transform({
+const transform77 = new Transform({
   position: new Vector3(27.196849822998047, 8.513177871704102, 0.5),
   rotation: new Quaternion(2.1737652164941813e-15, -1, 1.1920926823449918e-7, 0),
   scale: new Vector3(15.848153114318848, 12.04194164276123, 1.0000007152557373)
 })
-nft6.addComponentOrReplace(transform78)
+nft6.addComponentOrReplace(transform77)
 const nftShape6 = new NFTShape("ethereum://0x495f947276749ce646f68ac8c248420045cb7b5e/3591160245065073281550756981133883697253055043835827444440560591413396373505")
 nftShape6.withCollisions = true
 nftShape6.isPointerBlocker = true
@@ -908,12 +897,12 @@ nft6.addComponentOrReplace(nftShape6)
 const neonTubeBlue = new Entity('neonTubeBlue')
 engine.addEntity(neonTubeBlue)
 neonTubeBlue.setParent(_scene)
-const transform79 = new Transform({
+const transform78 = new Transform({
   position: new Vector3(22.152427673339844, 14.24394416809082, 1),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(42.171844482421875, -4.27242374420166, 1.0000016689300537)
 })
-neonTubeBlue.addComponentOrReplace(transform79)
+neonTubeBlue.addComponentOrReplace(transform78)
 const gltfShape5 = new GLTFShape("models/Neon_Tube_Blue.glb")
 gltfShape5.withCollisions = true
 gltfShape5.isPointerBlocker = true
@@ -923,33 +912,55 @@ neonTubeBlue.addComponentOrReplace(gltfShape5)
 const galleryInfoBlack = new Entity('galleryInfoBlack')
 engine.addEntity(galleryInfoBlack)
 galleryInfoBlack.setParent(_scene)
-const transform80 = new Transform({
+const transform79 = new Transform({
   position: new Vector3(1, 0, 15),
   rotation: new Quaternion(-5.837277581059123e-15, 1, -1.1920928244535389e-7, 0),
   scale: new Vector3(2.9600958824157715, 2.249000072479248, 1)
 })
-galleryInfoBlack.addComponentOrReplace(transform80)
+galleryInfoBlack.addComponentOrReplace(transform79)
 
 const galleryInfoTurquoise = new Entity('galleryInfoTurquoise')
 engine.addEntity(galleryInfoTurquoise)
 galleryInfoTurquoise.setParent(_scene)
-const transform81 = new Transform({
+const transform80 = new Transform({
   position: new Vector3(12, 0, 15),
   rotation: new Quaternion(-1.7280039636062387e-15, -1, 1.1920926823449918e-7, -1.4901161193847656e-8),
   scale: new Vector3(2.5078237056732178, 2.253687858581543, 1)
 })
-galleryInfoTurquoise.addComponentOrReplace(transform81)
+galleryInfoTurquoise.addComponentOrReplace(transform80)
 
 const neonTubeBlue2 = new Entity('neonTubeBlue2')
 engine.addEntity(neonTubeBlue2)
 neonTubeBlue2.setParent(_scene)
 neonTubeBlue2.addComponentOrReplace(gltfShape5)
-const transform82 = new Transform({
+const transform81 = new Transform({
   position: new Vector3(22.152427673339844, 3.8017044067382812, 1),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(42.171844482421875, -4.27242374420166, 1.0000016689300537)
 })
-neonTubeBlue2.addComponentOrReplace(transform82)
+neonTubeBlue2.addComponentOrReplace(transform81)
+
+const windowFullWall17 = new Entity('windowFullWall17')
+engine.addEntity(windowFullWall17)
+windowFullWall17.setParent(_scene)
+windowFullWall17.addComponentOrReplace(gltfShape3)
+const transform82 = new Transform({
+  position: new Vector3(32, 0, 16),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(1, 1, 1)
+})
+windowFullWall17.addComponentOrReplace(transform82)
+
+const neonTubeBlue3 = new Entity('neonTubeBlue3')
+engine.addEntity(neonTubeBlue3)
+neonTubeBlue3.setParent(_scene)
+neonTubeBlue3.addComponentOrReplace(gltfShape5)
+const transform83 = new Transform({
+  position: new Vector3(31, 7.80430793762207, 16),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(59.9303092956543, -4.27242374420166, 1.0000016689300537)
+})
+neonTubeBlue3.addComponentOrReplace(transform83)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
@@ -969,5 +980,5 @@ script5.init(options)
 script1.spawn(twitterButtonLink, {"url":"@CryptonautsThe","bnw":false,"name":"Follow us on Twitter!"}, createChannel(channelId, twitterButtonLink, channelBus))
 script2.spawn(discordButtonLink, {"url":"https://discord.gg/uUkHwmYT33","bnw":false,"name":"Join our Discord!"}, createChannel(channelId, discordButtonLink, channelBus))
 script3.spawn(externalLink, {"url":"https://opensea.io/collection/the-cryptonauts-launchpad-collection","name":"Collect Cryptonauts on Opensea!"}, createChannel(channelId, externalLink, channelBus))
-script4.spawn(galleryInfoBlack, {"text":"The Cryptonauts\n\nOnly 169 w/ unique traits!\n\n13 Space Suit Colors\n13 Visor Colors\nMultiple Orientations\nCosmic Environments\n\nCollect on Opensea!","fontSize":5,"font":"SF","color":"#000000"}, createChannel(channelId, galleryInfoBlack, channelBus))
+script4.spawn(galleryInfoBlack, {"text":"The Cryptonauts\n\nOnly 169 w/ unique traits!\n\n13 Space Suit Colors\n13 Visor Colors\nMultiple Orientations\nCosmic Environments\n\nCollect on Opensea!","fontSize":5,"font":"SF","color":"#FF0000"}, createChannel(channelId, galleryInfoBlack, channelBus))
 script5.spawn(galleryInfoTurquoise, {"text":"Buying a Cryptonaut...\nDo you need ETH?\n\nBuying something else...\nDo you need MANA?\n\nLook to your left...\n\nOur DEX can swap tokens!","fontSize":5,"font":"SF","color":"#000000"}, createChannel(channelId, galleryInfoTurquoise, channelBus))
