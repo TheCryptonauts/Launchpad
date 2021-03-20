@@ -782,9 +782,9 @@ const externalLink = new Entity('externalLink')
 engine.addEntity(externalLink)
 externalLink.setParent(_scene)
 const transform70 = new Transform({
-  position: new Vector3(0.7050013542175293, 0, 3.927860736846924),
+  position: new Vector3(0.7050018310546875, 0.4235677719116211, 3.927860736846924),
   rotation: new Quaternion(-2.4085271740892887e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
-  scale: new Vector3(9.963067054748535, 10.29811954498291, 1.0000026226043701)
+  scale: new Vector3(9.963072776794434, 10.29811954498291, 1.0000033378601074)
 })
 externalLink.addComponentOrReplace(transform70)
 
