@@ -14,7 +14,7 @@
   "scene": {
     "parcels": [
       "0,0",
-      "1,0"
+      "0,1"
     ],
     "base": "0,0"
   },
@@ -39,8 +39,8 @@
     },
     "rotation": "east",
     "layout": {
-      "rows": 2,
-      "cols": 1
+      "rows": 1,
+      "cols": 2
     }
   }
 }
