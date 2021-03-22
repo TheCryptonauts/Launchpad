@@ -248,7 +248,7 @@ const hexagonalFloorPanel = new Entity('hexagonalFloorPanel')
 engine.addEntity(hexagonalFloorPanel)
 hexagonalFloorPanel.setParent(_scene)
 const transform23 = new Transform({
-  position: new Vector3(12, 0, 4.004848480224609),
+  position: new Vector3(13, 0, 4),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })

@@ -6,7 +6,7 @@
   },
   "owner": "",
   "contact": {
-    "name": "TheCryptonauts",
+    "name": "author-name",
     "email": ""
   },
   "main": "bin/game.js",
