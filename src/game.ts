@@ -725,9 +725,9 @@ const twitterButtonLink = new Entity('twitterButtonLink')
 engine.addEntity(twitterButtonLink)
 twitterButtonLink.setParent(_scene)
 const transform65 = new Transform({
-  position: new Vector3(15, 0, 26),
-  rotation: new Quaternion(6.65848247649592e-8, -0.7447386980056763, 1.4844606255337567e-7, -0.6673563122749329),
-  scale: new Vector3(4.596231937408447, 10.24222469329834, 1.0000039339065552)
+  position: new Vector3(15, 0, 26.000001907348633),
+  rotation: new Quaternion(6.340864899812004e-8, 0.7092137336730957, -1.4757618771454872e-7, -0.7049935460090637),
+  scale: new Vector3(-4.810446262359619, 6.300953388214111, 4.856726169586182)
 })
 twitterButtonLink.addComponentOrReplace(transform65)
 
@@ -735,9 +735,9 @@ const discordButtonLink = new Entity('discordButtonLink')
 engine.addEntity(discordButtonLink)
 discordButtonLink.setParent(_scene)
 const transform66 = new Transform({
-  position: new Vector3(15, 0, 29.5),
-  rotation: new Quaternion(-1.191694380437043e-14, -0.7274914383888245, 8.672374463003507e-8, -0.6861168742179871),
-  scale: new Vector3(4.500027179718018, 10.290130615234375, 1.0000033378601074)
+  position: new Vector3(15, 0, 29.499998092651367),
+  rotation: new Quaternion(-1.191694380437043e-14, 0.7274914383888245, -8.672374463003507e-8, -0.6861168742179871),
+  scale: new Vector3(-4.560115337371826, 6.330424785614014, 4.8899760246276855)
 })
 discordButtonLink.addComponentOrReplace(transform66)
 
@@ -1161,9 +1161,9 @@ script4.init(options)
 script5.init(options)
 script6.init(options)
 script1.spawn(twitterButtonLink, {"url":"@CryptonautsThe","bnw":false,"name":"Follow us on Twitter!"}, createChannel(channelId, twitterButtonLink, channelBus))
-script2.spawn(discordButtonLink, {"url":"https://discord.gg/uUkHwmYT33","bnw":false,"name":"Join our Discord!"}, createChannel(channelId, discordButtonLink, channelBus))
+script2.spawn(discordButtonLink, {"url":"channels/818952928634601512/818952928634601515","bnw":false,"name":"Join our Discord!"}, createChannel(channelId, discordButtonLink, channelBus))
 script3.spawn(externalLink, {"url":"https://opensea.io/collection/the-cryptonauts-launchpad-collection","name":"Collect Cryptonauts on Opensea!"}, createChannel(channelId, externalLink, channelBus))
-script4.spawn(galleryInfoBlack, {"text":"*The Cryptonauts*\n*Wall of Fame*\n\nTop 10 Rarest 'Nauts!\n(some are not released yet)\n\nFor our Full Collection...\nCheck us out on Opensea!\nOnly 169 'Nauts available!","fontSize":5,"font":"SF","color":"#FF0000"}, createChannel(channelId, galleryInfoBlack, channelBus))
+script4.spawn(galleryInfoBlack, {"text":"*The Cryptonauts*\n*Wall of Fame*\nTop 10 Rarest 'Nauts!\n\n(some are not released yet)\n\n**********\nFor our Full Collection...\nCheck us out on Opensea!\nOnly 169 'Nauts available!","fontSize":5,"font":"SF","color":"#FF0000"}, createChannel(channelId, galleryInfoBlack, channelBus))
 script5.spawn(galleryInfoTurquoise, {"text":"Buying a Cryptonaut...\nDo you need ETH?\n\nBuying something else...\nDo you need MANA?\n**********\nRIght in front of you is a\nDEX that swaps tokens!\n\nTry it out!","fontSize":5,"font":"SF","color":"#000000"}, createChannel(channelId, galleryInfoTurquoise, channelBus))
 script6.spawn(nftPictureFrame, {"id":"","contract":"","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame, channelBus))
 script6.spawn(nftPictureFrame2, {"id":"","contract":"","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame2, channelBus))
