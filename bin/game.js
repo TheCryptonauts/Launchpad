@@ -7777,270 +7777,274 @@ const transform85 = new Transform({
 })
 wallPlainBlack65.addComponentOrReplace(transform85)
 
-const wallPlainGlass = new Entity('wallPlainGlass')
-engine.addEntity(wallPlainGlass)
-wallPlainGlass.setParent(_scene)
-const transform86 = new Transform({
-  position: new Vector3(16, 0, 0.29958581924438477),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(7.95635461807251, 4.001880645751953, 0.9999999403953552)
-})
-wallPlainGlass.addComponentOrReplace(transform86)
-const gltfShape6 = new GLTFShape("models/PlainGlassWall.glb")
-gltfShape6.withCollisions = true
-gltfShape6.isPointerBlocker = true
-gltfShape6.visible = true
-wallPlainGlass.addComponentOrReplace(gltfShape6)
-
 const neonTubeBlue4 = new Entity('neonTubeBlue4')
 engine.addEntity(neonTubeBlue4)
 neonTubeBlue4.setParent(_scene)
 neonTubeBlue4.addComponentOrReplace(gltfShape2)
-const transform87 = new Transform({
+const transform86 = new Transform({
   position: new Vector3(15.999994277954102, 8.948410034179688, 0.8100461959838867),
   rotation: new Quaternion(-8.810130503619459e-16, 0.70710688829422, -8.429369557916289e-8, 0.7071067094802856),
   scale: new Vector3(59.80570983886719, -4.27242374420166, 1.0000016689300537)
 })
-neonTubeBlue4.addComponentOrReplace(transform87)
+neonTubeBlue4.addComponentOrReplace(transform86)
 
 const wallPlainGlass2 = new Entity('wallPlainGlass2')
 engine.addEntity(wallPlainGlass2)
 wallPlainGlass2.setParent(_scene)
-const transform88 = new Transform({
+const transform87 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 0),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000004768371582, 1, 1.0000004768371582)
 })
-wallPlainGlass2.addComponentOrReplace(transform88)
+wallPlainGlass2.addComponentOrReplace(transform87)
+const gltfShape6 = new GLTFShape("models/PlainGlassWall.glb")
+gltfShape6.withCollisions = true
+gltfShape6.isPointerBlocker = true
+gltfShape6.visible = true
 wallPlainGlass2.addComponentOrReplace(gltfShape6)
 
 const wallPlainGlass3 = new Entity('wallPlainGlass3')
 engine.addEntity(wallPlainGlass3)
 wallPlainGlass3.setParent(_scene)
 wallPlainGlass3.addComponentOrReplace(gltfShape6)
-const transform89 = new Transform({
+const transform88 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 2),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000007152557373, 1, 1.0000007152557373)
 })
-wallPlainGlass3.addComponentOrReplace(transform89)
+wallPlainGlass3.addComponentOrReplace(transform88)
 
 const wallPlainGlass4 = new Entity('wallPlainGlass4')
 engine.addEntity(wallPlainGlass4)
 wallPlainGlass4.setParent(_scene)
 wallPlainGlass4.addComponentOrReplace(gltfShape6)
-const transform90 = new Transform({
+const transform89 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 4),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000009536743164, 1, 1.0000009536743164)
 })
-wallPlainGlass4.addComponentOrReplace(transform90)
+wallPlainGlass4.addComponentOrReplace(transform89)
 
 const wallPlainGlass5 = new Entity('wallPlainGlass5')
 engine.addEntity(wallPlainGlass5)
 wallPlainGlass5.setParent(_scene)
 wallPlainGlass5.addComponentOrReplace(gltfShape6)
-const transform91 = new Transform({
+const transform90 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 6),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000011920928955, 1, 1.0000011920928955)
 })
-wallPlainGlass5.addComponentOrReplace(transform91)
+wallPlainGlass5.addComponentOrReplace(transform90)
 
 const wallPlainGlass6 = new Entity('wallPlainGlass6')
 engine.addEntity(wallPlainGlass6)
 wallPlainGlass6.setParent(_scene)
 wallPlainGlass6.addComponentOrReplace(gltfShape6)
-const transform92 = new Transform({
+const transform91 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 8),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000014305114746, 1, 1.0000014305114746)
 })
-wallPlainGlass6.addComponentOrReplace(transform92)
+wallPlainGlass6.addComponentOrReplace(transform91)
 
 const wallPlainGlass7 = new Entity('wallPlainGlass7')
 engine.addEntity(wallPlainGlass7)
 wallPlainGlass7.setParent(_scene)
 wallPlainGlass7.addComponentOrReplace(gltfShape6)
-const transform93 = new Transform({
+const transform92 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 10),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000016689300537, 1, 1.0000016689300537)
 })
-wallPlainGlass7.addComponentOrReplace(transform93)
+wallPlainGlass7.addComponentOrReplace(transform92)
 
 const wallPlainGlass8 = new Entity('wallPlainGlass8')
 engine.addEntity(wallPlainGlass8)
 wallPlainGlass8.setParent(_scene)
 wallPlainGlass8.addComponentOrReplace(gltfShape6)
-const transform94 = new Transform({
+const transform93 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 12),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000019073486328, 1, 1.0000019073486328)
 })
-wallPlainGlass8.addComponentOrReplace(transform94)
+wallPlainGlass8.addComponentOrReplace(transform93)
 
 const wallPlainGlass9 = new Entity('wallPlainGlass9')
 engine.addEntity(wallPlainGlass9)
 wallPlainGlass9.setParent(_scene)
 wallPlainGlass9.addComponentOrReplace(gltfShape6)
-const transform95 = new Transform({
+const transform94 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 14),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.000002145767212, 1, 1.000002145767212)
 })
-wallPlainGlass9.addComponentOrReplace(transform95)
+wallPlainGlass9.addComponentOrReplace(transform94)
 
 const wallPlainGlass10 = new Entity('wallPlainGlass10')
 engine.addEntity(wallPlainGlass10)
 wallPlainGlass10.setParent(_scene)
 wallPlainGlass10.addComponentOrReplace(gltfShape6)
-const transform96 = new Transform({
+const transform95 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 16),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.000002384185791, 1, 1.000002384185791)
 })
-wallPlainGlass10.addComponentOrReplace(transform96)
+wallPlainGlass10.addComponentOrReplace(transform95)
 
 const wallPlainGlass11 = new Entity('wallPlainGlass11')
 engine.addEntity(wallPlainGlass11)
 wallPlainGlass11.setParent(_scene)
 wallPlainGlass11.addComponentOrReplace(gltfShape6)
-const transform97 = new Transform({
+const transform96 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 18),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000026226043701, 1, 1.0000026226043701)
 })
-wallPlainGlass11.addComponentOrReplace(transform97)
+wallPlainGlass11.addComponentOrReplace(transform96)
 
 const wallPlainGlass12 = new Entity('wallPlainGlass12')
 engine.addEntity(wallPlainGlass12)
 wallPlainGlass12.setParent(_scene)
 wallPlainGlass12.addComponentOrReplace(gltfShape6)
-const transform98 = new Transform({
+const transform97 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 20),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000028610229492, 1, 1.0000028610229492)
 })
-wallPlainGlass12.addComponentOrReplace(transform98)
+wallPlainGlass12.addComponentOrReplace(transform97)
 
 const wallPlainGlass13 = new Entity('wallPlainGlass13')
 engine.addEntity(wallPlainGlass13)
 wallPlainGlass13.setParent(_scene)
 wallPlainGlass13.addComponentOrReplace(gltfShape6)
-const transform99 = new Transform({
+const transform98 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 22),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000030994415283, 1, 1.0000030994415283)
 })
-wallPlainGlass13.addComponentOrReplace(transform99)
+wallPlainGlass13.addComponentOrReplace(transform98)
 
 const wallPlainGlass14 = new Entity('wallPlainGlass14')
 engine.addEntity(wallPlainGlass14)
 wallPlainGlass14.setParent(_scene)
 wallPlainGlass14.addComponentOrReplace(gltfShape6)
-const transform100 = new Transform({
+const transform99 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 24),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000033378601074, 1, 1.0000033378601074)
 })
-wallPlainGlass14.addComponentOrReplace(transform100)
+wallPlainGlass14.addComponentOrReplace(transform99)
 
 const wallPlainGlass15 = new Entity('wallPlainGlass15')
 engine.addEntity(wallPlainGlass15)
 wallPlainGlass15.setParent(_scene)
 wallPlainGlass15.addComponentOrReplace(gltfShape6)
-const transform101 = new Transform({
+const transform100 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 26),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000035762786865, 1, 1.0000035762786865)
 })
-wallPlainGlass15.addComponentOrReplace(transform101)
+wallPlainGlass15.addComponentOrReplace(transform100)
 
 const wallPlainGlass16 = new Entity('wallPlainGlass16')
 engine.addEntity(wallPlainGlass16)
 wallPlainGlass16.setParent(_scene)
 wallPlainGlass16.addComponentOrReplace(gltfShape6)
-const transform102 = new Transform({
+const transform101 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 28),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000038146972656, 1, 1.0000038146972656)
 })
-wallPlainGlass16.addComponentOrReplace(transform102)
+wallPlainGlass16.addComponentOrReplace(transform101)
 
 const wallPlainGlass17 = new Entity('wallPlainGlass17')
 engine.addEntity(wallPlainGlass17)
 wallPlainGlass17.setParent(_scene)
 wallPlainGlass17.addComponentOrReplace(gltfShape6)
-const transform103 = new Transform({
+const transform102 = new Transform({
   position: new Vector3(16, 5.960464477539063e-8, 30),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000040531158447, 1, 1.0000040531158447)
 })
-wallPlainGlass17.addComponentOrReplace(transform103)
+wallPlainGlass17.addComponentOrReplace(transform102)
 
 const twitterButtonLink = new Entity('twitterButtonLink')
 engine.addEntity(twitterButtonLink)
 twitterButtonLink.setParent(_scene)
-const transform104 = new Transform({
+const transform103 = new Transform({
   position: new Vector3(15, 0, 17.5),
   rotation: new Quaternion(-2.4085271740892887e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(5.574748992919922, 6.128199100494385, 3.955739974975586)
 })
-twitterButtonLink.addComponentOrReplace(transform104)
+twitterButtonLink.addComponentOrReplace(transform103)
 
 const discordButtonLink = new Entity('discordButtonLink')
 engine.addEntity(discordButtonLink)
 discordButtonLink.setParent(_scene)
-const transform105 = new Transform({
+const transform104 = new Transform({
   position: new Vector3(15, 0, 22.5),
   rotation: new Quaternion(-2.4085271740892887e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(5.574747562408447, 6.128199100494385, 3.9557409286499023)
 })
-discordButtonLink.addComponentOrReplace(transform105)
+discordButtonLink.addComponentOrReplace(transform104)
 
 const externalLink = new Entity('externalLink')
 engine.addEntity(externalLink)
 externalLink.setParent(_scene)
-const transform106 = new Transform({
+const transform105 = new Transform({
   position: new Vector3(15, 2.3578024865855696e-7, 27.5),
   rotation: new Quaternion(-2.4085271740892887e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(5.574742317199707, 7.5410542488098145, 3.9557437896728516)
 })
-externalLink.addComponentOrReplace(transform106)
+externalLink.addComponentOrReplace(transform105)
 
 const hexagonalFloorPanel2 = new Entity('hexagonalFloorPanel2')
 engine.addEntity(hexagonalFloorPanel2)
 hexagonalFloorPanel2.setParent(_scene)
 hexagonalFloorPanel2.addComponentOrReplace(gltfShape4)
-const transform107 = new Transform({
+const transform106 = new Transform({
   position: new Vector3(13, 0, 27.5),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-hexagonalFloorPanel2.addComponentOrReplace(transform107)
+hexagonalFloorPanel2.addComponentOrReplace(transform106)
 
 const neonTubeBlue5 = new Entity('neonTubeBlue5')
 engine.addEntity(neonTubeBlue5)
 neonTubeBlue5.setParent(_scene)
 neonTubeBlue5.addComponentOrReplace(gltfShape2)
-const transform108 = new Transform({
+const transform107 = new Transform({
   position: new Vector3(1.4764819145202637, 18.40033721923828, 31.5),
   rotation: new Quaternion(5.396888211122667e-15, 1, -1.1920926823449918e-7, -1.4901159772762185e-7),
   scale: new Vector3(10.52531623840332, -4.27242374420166, 1.0000022649765015)
 })
-neonTubeBlue5.addComponentOrReplace(transform108)
+neonTubeBlue5.addComponentOrReplace(transform107)
 
 const neonTubeBlue6 = new Entity('neonTubeBlue6')
 engine.addEntity(neonTubeBlue6)
 neonTubeBlue6.setParent(_scene)
 neonTubeBlue6.addComponentOrReplace(gltfShape2)
-const transform109 = new Transform({
+const transform108 = new Transform({
   position: new Vector3(1.4764819145202637, 4.086855888366699, 31.5),
   rotation: new Quaternion(5.396888211122667e-15, 1, -1.1920926823449918e-7, -1.4901159772762185e-7),
   scale: new Vector3(10.52531623840332, -4.27242374420166, 1.0000022649765015)
 })
-neonTubeBlue6.addComponentOrReplace(transform109)
+neonTubeBlue6.addComponentOrReplace(transform108)
+
+const windowBlackLarge = new Entity('windowBlackLarge')
+engine.addEntity(windowBlackLarge)
+windowBlackLarge.setParent(_scene)
+const transform109 = new Transform({
+  position: new Vector3(16, 0, 0.2979593276977539),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(8, 4.003426551818848, 1.000000238418579)
+})
+windowBlackLarge.addComponentOrReplace(transform109)
+const gltfShape7 = new GLTFShape("models/BlackWindowLarge.glb")
+gltfShape7.withCollisions = true
+gltfShape7.isPointerBlocker = true
+gltfShape7.visible = true
+windowBlackLarge.addComponentOrReplace(gltfShape7)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
@@ -8073,4 +8077,4 @@ script3.spawn(nftPictureFrame9, {"id":"35911602450650732815507569811338836972530
 script3.spawn(nftPictureFrame10, {"id":"3591160245065073281550756981133883697253055043835827444440560613403628929025","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"#10 Most Rare Cryptonaut\nOwned by: Still Available!"}, createChannel(channelId, nftPictureFrame10, channelBus))
 script4.spawn(twitterButtonLink, {"url":"@CryptonautsThe","bnw":false,"name":"Follow us on Twitter!"}, createChannel(channelId, twitterButtonLink, channelBus))
 script5.spawn(discordButtonLink, {"url":"channels/818952928634601512/818952928634601515","bnw":false,"name":"Join our Discord!"}, createChannel(channelId, discordButtonLink, channelBus))
-script6.spawn(externalLink, {"url":"decentraland.org","name":"Collect Cryptonauts on Opensea!"}, createChannel(channelId, externalLink, channelBus))
+script6.spawn(externalLink, {"url":"https://opensea.io/collection/the-cryptonauts-launchpad-collection","name":"Collect Cryptonauts on Opensea!"}, createChannel(channelId, externalLink, channelBus))
