@@ -725,9 +725,9 @@ const twitterButtonLink = new Entity('twitterButtonLink')
 engine.addEntity(twitterButtonLink)
 twitterButtonLink.setParent(_scene)
 const transform65 = new Transform({
-  position: new Vector3(14.5, 0, 5),
+  position: new Vector3(15, 0, 26),
   rotation: new Quaternion(6.65848247649592e-8, -0.7447386980056763, 1.4844606255337567e-7, -0.6673563122749329),
-  scale: new Vector3(4.596227645874023, 10.24222469329834, 1.0000028610229492)
+  scale: new Vector3(4.596231937408447, 10.24222469329834, 1.0000039339065552)
 })
 twitterButtonLink.addComponentOrReplace(transform65)
 
@@ -735,9 +735,9 @@ const discordButtonLink = new Entity('discordButtonLink')
 engine.addEntity(discordButtonLink)
 discordButtonLink.setParent(_scene)
 const transform66 = new Transform({
-  position: new Vector3(14.5, 0, 10.5),
+  position: new Vector3(15, 0, 29.5),
   rotation: new Quaternion(-1.191694380437043e-14, -0.7274914383888245, 8.672374463003507e-8, -0.6861168742179871),
-  scale: new Vector3(4.500015735626221, 10.290130615234375, 1.0000026226043701)
+  scale: new Vector3(4.500027179718018, 10.290130615234375, 1.0000033378601074)
 })
 discordButtonLink.addComponentOrReplace(transform66)
 
@@ -770,7 +770,7 @@ const galleryInfoBlack = new Entity('galleryInfoBlack')
 engine.addEntity(galleryInfoBlack)
 galleryInfoBlack.setParent(_scene)
 const transform69 = new Transform({
-  position: new Vector3(15.000003814697266, 9.5367431640625e-7, 30.749998092651367),
+  position: new Vector3(15, 9.5367431640625e-7, 15),
   rotation: new Quaternion(-1.1233005357044051e-14, 0.7071067094802856, -8.429367426288081e-8, -0.70710688829422),
   scale: new Vector3(2.9600958824157715, 2.249000072479248, 1)
 })
@@ -780,7 +780,7 @@ const galleryInfoTurquoise = new Entity('galleryInfoTurquoise')
 engine.addEntity(galleryInfoTurquoise)
 galleryInfoTurquoise.setParent(_scene)
 const transform70 = new Transform({
-  position: new Vector3(15, 0, 19.749998092651367),
+  position: new Vector3(15, 0, 6.5),
   rotation: new Quaternion(-1.221883248776073e-15, -0.7071067094802856, 8.429367426288081e-8, 0.70710688829422),
   scale: new Vector3(2.5078237056732178, 2.253687858581543, 1)
 })
@@ -1142,6 +1142,21 @@ const transform103 = new Transform({
   scale: new Vector3(1, 1, 1)
 })
 wallPlainBlack17.addComponentOrReplace(transform103)
+
+const wallPlainTurquoise = new Entity('wallPlainTurquoise')
+engine.addEntity(wallPlainTurquoise)
+wallPlainTurquoise.setParent(_scene)
+const transform104 = new Transform({
+  position: new Vector3(15.298101425170898, 0, 6.723171234130859),
+  rotation: new Quaternion(-6.692902301134779e-16, -0.7071068286895752, 8.429368136830817e-8, -0.7071068286895752),
+  scale: new Vector3(1.0000016689300537, 1, 1.0000016689300537)
+})
+wallPlainTurquoise.addComponentOrReplace(transform104)
+const gltfShape6 = new GLTFShape("models/PlainTurquoiseWall.glb")
+gltfShape6.withCollisions = true
+gltfShape6.isPointerBlocker = true
+gltfShape6.visible = true
+wallPlainTurquoise.addComponentOrReplace(gltfShape6)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
