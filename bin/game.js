@@ -7599,7 +7599,7 @@ const galleryInfoBlack = new Entity('galleryInfoBlack')
 engine.addEntity(galleryInfoBlack)
 galleryInfoBlack.setParent(_scene)
 const transform69 = new Transform({
-  position: new Vector3(15, 9.5367431640625e-7, 15),
+  position: new Vector3(15, 9.5367431640625e-7, 14),
   rotation: new Quaternion(-1.1233005357044051e-14, 0.7071067094802856, -8.429367426288081e-8, -0.70710688829422),
   scale: new Vector3(2.9600958824157715, 2.249000072479248, 1)
 })
@@ -7972,21 +7972,6 @@ const transform103 = new Transform({
 })
 wallPlainBlack17.addComponentOrReplace(transform103)
 
-const wallPlainTurquoise = new Entity('wallPlainTurquoise')
-engine.addEntity(wallPlainTurquoise)
-wallPlainTurquoise.setParent(_scene)
-const transform104 = new Transform({
-  position: new Vector3(15.298101425170898, 0, 6.723171234130859),
-  rotation: new Quaternion(-6.692902301134779e-16, -0.7071068286895752, 8.429368136830817e-8, -0.7071068286895752),
-  scale: new Vector3(1.0000016689300537, 1, 1.0000016689300537)
-})
-wallPlainTurquoise.addComponentOrReplace(transform104)
-const gltfShape6 = new GLTFShape("models/PlainTurquoiseWall.glb")
-gltfShape6.withCollisions = true
-gltfShape6.isPointerBlocker = true
-gltfShape6.visible = true
-wallPlainTurquoise.addComponentOrReplace(gltfShape6)
-
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
 const inventory = createInventory(UICanvas, UIContainerStack, UIImage)
@@ -8008,7 +7993,7 @@ script1.spawn(twitterButtonLink, {"url":"@CryptonautsThe","bnw":false,"name":"Fo
 script2.spawn(discordButtonLink, {"url":"https://discord.gg/uUkHwmYT33","bnw":false,"name":"Join our Discord!"}, createChannel(channelId, discordButtonLink, channelBus))
 script3.spawn(externalLink, {"url":"https://opensea.io/collection/the-cryptonauts-launchpad-collection","name":"Collect Cryptonauts on Opensea!"}, createChannel(channelId, externalLink, channelBus))
 script4.spawn(galleryInfoBlack, {"text":"*The Cryptonauts*\n*Wall of Fame*\n\nTop 10 Rarest 'Nauts!\n(some are not released yet)\n\nFor our Full Collection...\nCheck us out on Opensea!\nOnly 169 'Nauts available!","fontSize":5,"font":"SF","color":"#FF0000"}, createChannel(channelId, galleryInfoBlack, channelBus))
-script5.spawn(galleryInfoTurquoise, {"text":"Buying a Cryptonaut...\nDo you need ETH?\n\nBuying something else...\nDo you need MANA?\n\nLook to your left...\n\nOur DEX can swap tokens!","fontSize":5,"font":"SF","color":"#000000"}, createChannel(channelId, galleryInfoTurquoise, channelBus))
+script5.spawn(galleryInfoTurquoise, {"text":"Buying a Cryptonaut...\nDo you need ETH?\n\nBuying something else...\nDo you need MANA?\n**********\nRIght in front of you is a\nDEX that swaps tokens!\n\nTry it out!","fontSize":5,"font":"SF","color":"#000000"}, createChannel(channelId, galleryInfoTurquoise, channelBus))
 script6.spawn(nftPictureFrame, {"id":"","contract":"","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame, channelBus))
 script6.spawn(nftPictureFrame2, {"id":"","contract":"","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame2, channelBus))
 script6.spawn(nftPictureFrame3, {"id":"","contract":"","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame3, channelBus))
