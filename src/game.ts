@@ -6,6 +6,7 @@ import Script3 from "../80d9cb1c-2fcf-4585-8e19-e2d5621fd54d/src/item"
 import Script4 from "../f89ab04f-46ef-42ea-912b-b194eb8d2f02/src/item"
 import Script5 from "../8bd080c9-9954-43b2-a6ac-0b0913d298c0/src/item"
 import Script6 from "../b88efbbf-2a9a-47b4-86e1-e38ecc2b433b/src/item"
+import Script7 from "../7d669c08-c354-45e4-b3a3-c915c8fd6b6e/src/item"
 
 const _scene = new Entity('_scene')
 engine.addEntity(_scene)
@@ -25,9 +26,9 @@ gltfShape.isPointerBlocker = true
 gltfShape.visible = true
 windowFullWall16.addComponentOrReplace(gltfShape)
 const transform2 = new Transform({
-  position: new Vector3(0, 0.00000286102294921875, 31.697729110717773),
+  position: new Vector3(0, 0.00000286102294921875, 31.69772720336914),
   rotation: new Quaternion(-3.4030027229556715e-15, -1, 1.1920926112907182e-7, 1.4901159772762185e-7),
-  scale: new Vector3(3.637406349182129, 3.994396924972534, 1.000005841255188)
+  scale: new Vector3(3.637406349182129, 6.006519794464111, 1.000005841255188)
 })
 windowFullWall16.addComponentOrReplace(transform2)
 
@@ -35,7 +36,7 @@ const neonTubeBlue = new Entity('neonTubeBlue')
 engine.addEntity(neonTubeBlue)
 neonTubeBlue.setParent(_scene)
 const transform3 = new Transform({
-  position: new Vector3(0.999995231628418, 18.40033721923828, 0.7500019073486328),
+  position: new Vector3(0.999995231628418, 26.40033721923828, 0.7500019073486328),
   rotation: new Quaternion(-8.810130503619459e-16, 0.70710688829422, -8.429369557916289e-8, 0.7071067094802856),
   scale: new Vector3(59.80570983886719, -4.27242374420166, 1.0000016689300537)
 })
@@ -1185,7 +1186,7 @@ engine.addEntity(neonTubeBlue5)
 neonTubeBlue5.setParent(_scene)
 neonTubeBlue5.addComponentOrReplace(gltfShape2)
 const transform107 = new Transform({
-  position: new Vector3(1.4764819145202637, 18.40033721923828, 31.5),
+  position: new Vector3(1.4764819145202637, 26.40033721923828, 31.5),
   rotation: new Quaternion(5.396888211122667e-15, 1, -1.1920926823449918e-7, -1.4901159772762185e-7),
   scale: new Vector3(10.52531623840332, -4.27242374420166, 1.0000022649765015)
 })
@@ -1206,9 +1207,9 @@ const windowBlackLarge = new Entity('windowBlackLarge')
 engine.addEntity(windowBlackLarge)
 windowBlackLarge.setParent(_scene)
 const transform109 = new Transform({
-  position: new Vector3(16, 0, 0.2979593276977539),
+  position: new Vector3(16, 0, 0.2979583740234375),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(8, 4.003426551818848, 1.000000238418579)
+  scale: new Vector3(8, 5.991962432861328, 1.000000238418579)
 })
 windowBlackLarge.addComponentOrReplace(transform109)
 const gltfShape7 = new GLTFShape("models/BlackWindowLarge.glb")
@@ -1216,6 +1217,368 @@ gltfShape7.withCollisions = true
 gltfShape7.isPointerBlocker = true
 gltfShape7.visible = true
 windowBlackLarge.addComponentOrReplace(gltfShape7)
+
+const wallPlainBlack66 = new Entity('wallPlainBlack66')
+engine.addEntity(wallPlainBlack66)
+wallPlainBlack66.setParent(_scene)
+wallPlainBlack66.addComponentOrReplace(gltfShape5)
+const transform110 = new Transform({
+  position: new Vector3(0, 16, 26),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000016689300537, 1, 1.0000016689300537)
+})
+wallPlainBlack66.addComponentOrReplace(transform110)
+
+const wallPlainBlack67 = new Entity('wallPlainBlack67')
+engine.addEntity(wallPlainBlack67)
+wallPlainBlack67.setParent(_scene)
+wallPlainBlack67.addComponentOrReplace(gltfShape5)
+const transform111 = new Transform({
+  position: new Vector3(0, 20, 26),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000019073486328, 1, 1.0000019073486328)
+})
+wallPlainBlack67.addComponentOrReplace(transform111)
+
+const wallPlainBlack68 = new Entity('wallPlainBlack68')
+engine.addEntity(wallPlainBlack68)
+wallPlainBlack68.setParent(_scene)
+wallPlainBlack68.addComponentOrReplace(gltfShape5)
+const transform112 = new Transform({
+  position: new Vector3(0, 16, 28),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002145767212, 1, 1.000002145767212)
+})
+wallPlainBlack68.addComponentOrReplace(transform112)
+
+const wallPlainBlack69 = new Entity('wallPlainBlack69')
+engine.addEntity(wallPlainBlack69)
+wallPlainBlack69.setParent(_scene)
+wallPlainBlack69.addComponentOrReplace(gltfShape5)
+const transform113 = new Transform({
+  position: new Vector3(0, 20, 30),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002145767212, 1, 1.000002145767212)
+})
+wallPlainBlack69.addComponentOrReplace(transform113)
+
+const wallPlainBlack70 = new Entity('wallPlainBlack70')
+engine.addEntity(wallPlainBlack70)
+wallPlainBlack70.setParent(_scene)
+wallPlainBlack70.addComponentOrReplace(gltfShape5)
+const transform114 = new Transform({
+  position: new Vector3(0, 20, 32),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000016689300537, 1, 1.0000016689300537)
+})
+wallPlainBlack70.addComponentOrReplace(transform114)
+
+const wallPlainBlack71 = new Entity('wallPlainBlack71')
+engine.addEntity(wallPlainBlack71)
+wallPlainBlack71.setParent(_scene)
+wallPlainBlack71.addComponentOrReplace(gltfShape5)
+const transform115 = new Transform({
+  position: new Vector3(0, 20, 28),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002384185791, 1, 1.000002384185791)
+})
+wallPlainBlack71.addComponentOrReplace(transform115)
+
+const wallPlainBlack72 = new Entity('wallPlainBlack72')
+engine.addEntity(wallPlainBlack72)
+wallPlainBlack72.setParent(_scene)
+wallPlainBlack72.addComponentOrReplace(gltfShape5)
+const transform116 = new Transform({
+  position: new Vector3(0, 16, 32),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000014305114746, 1, 1.0000014305114746)
+})
+wallPlainBlack72.addComponentOrReplace(transform116)
+
+const wallPlainBlack73 = new Entity('wallPlainBlack73')
+engine.addEntity(wallPlainBlack73)
+wallPlainBlack73.setParent(_scene)
+wallPlainBlack73.addComponentOrReplace(gltfShape5)
+const transform117 = new Transform({
+  position: new Vector3(0, 16, 30),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000019073486328, 1, 1.0000019073486328)
+})
+wallPlainBlack73.addComponentOrReplace(transform117)
+
+const wallPlainBlack74 = new Entity('wallPlainBlack74')
+engine.addEntity(wallPlainBlack74)
+wallPlainBlack74.setParent(_scene)
+wallPlainBlack74.addComponentOrReplace(gltfShape5)
+const transform118 = new Transform({
+  position: new Vector3(0, 20, 22),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002384185791, 1, 1.000002384185791)
+})
+wallPlainBlack74.addComponentOrReplace(transform118)
+
+const wallPlainBlack75 = new Entity('wallPlainBlack75')
+engine.addEntity(wallPlainBlack75)
+wallPlainBlack75.setParent(_scene)
+wallPlainBlack75.addComponentOrReplace(gltfShape5)
+const transform119 = new Transform({
+  position: new Vector3(0, 20, 24),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000019073486328, 1, 1.0000019073486328)
+})
+wallPlainBlack75.addComponentOrReplace(transform119)
+
+const wallPlainBlack76 = new Entity('wallPlainBlack76')
+engine.addEntity(wallPlainBlack76)
+wallPlainBlack76.setParent(_scene)
+wallPlainBlack76.addComponentOrReplace(gltfShape5)
+const transform120 = new Transform({
+  position: new Vector3(0, 20, 20),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000026226043701, 1, 1.0000026226043701)
+})
+wallPlainBlack76.addComponentOrReplace(transform120)
+
+const wallPlainBlack77 = new Entity('wallPlainBlack77')
+engine.addEntity(wallPlainBlack77)
+wallPlainBlack77.setParent(_scene)
+wallPlainBlack77.addComponentOrReplace(gltfShape5)
+const transform121 = new Transform({
+  position: new Vector3(0, 20, 18),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002145767212, 1, 1.000002145767212)
+})
+wallPlainBlack77.addComponentOrReplace(transform121)
+
+const wallPlainBlack78 = new Entity('wallPlainBlack78')
+engine.addEntity(wallPlainBlack78)
+wallPlainBlack78.setParent(_scene)
+wallPlainBlack78.addComponentOrReplace(gltfShape5)
+const transform122 = new Transform({
+  position: new Vector3(0, 16, 24),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000016689300537, 1, 1.0000016689300537)
+})
+wallPlainBlack78.addComponentOrReplace(transform122)
+
+const wallPlainBlack79 = new Entity('wallPlainBlack79')
+engine.addEntity(wallPlainBlack79)
+wallPlainBlack79.setParent(_scene)
+wallPlainBlack79.addComponentOrReplace(gltfShape5)
+const transform123 = new Transform({
+  position: new Vector3(0, 16, 22),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002145767212, 1, 1.000002145767212)
+})
+wallPlainBlack79.addComponentOrReplace(transform123)
+
+const wallPlainBlack80 = new Entity('wallPlainBlack80')
+engine.addEntity(wallPlainBlack80)
+wallPlainBlack80.setParent(_scene)
+wallPlainBlack80.addComponentOrReplace(gltfShape5)
+const transform124 = new Transform({
+  position: new Vector3(0, 16, 20),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002384185791, 1, 1.000002384185791)
+})
+wallPlainBlack80.addComponentOrReplace(transform124)
+
+const wallPlainBlack81 = new Entity('wallPlainBlack81')
+engine.addEntity(wallPlainBlack81)
+wallPlainBlack81.setParent(_scene)
+wallPlainBlack81.addComponentOrReplace(gltfShape5)
+const transform125 = new Transform({
+  position: new Vector3(0, 16, 18),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000019073486328, 1, 1.0000019073486328)
+})
+wallPlainBlack81.addComponentOrReplace(transform125)
+
+const wallPlainBlack82 = new Entity('wallPlainBlack82')
+engine.addEntity(wallPlainBlack82)
+wallPlainBlack82.setParent(_scene)
+wallPlainBlack82.addComponentOrReplace(gltfShape5)
+const transform126 = new Transform({
+  position: new Vector3(0, 20, 14),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000026226043701, 1, 1.0000026226043701)
+})
+wallPlainBlack82.addComponentOrReplace(transform126)
+
+const wallPlainBlack83 = new Entity('wallPlainBlack83')
+engine.addEntity(wallPlainBlack83)
+wallPlainBlack83.setParent(_scene)
+wallPlainBlack83.addComponentOrReplace(gltfShape5)
+const transform127 = new Transform({
+  position: new Vector3(0, 20, 16),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002145767212, 1, 1.000002145767212)
+})
+wallPlainBlack83.addComponentOrReplace(transform127)
+
+const wallPlainBlack84 = new Entity('wallPlainBlack84')
+engine.addEntity(wallPlainBlack84)
+wallPlainBlack84.setParent(_scene)
+wallPlainBlack84.addComponentOrReplace(gltfShape5)
+const transform128 = new Transform({
+  position: new Vector3(0, 20, 12),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000028610229492, 1, 1.0000028610229492)
+})
+wallPlainBlack84.addComponentOrReplace(transform128)
+
+const wallPlainBlack85 = new Entity('wallPlainBlack85')
+engine.addEntity(wallPlainBlack85)
+wallPlainBlack85.setParent(_scene)
+wallPlainBlack85.addComponentOrReplace(gltfShape5)
+const transform129 = new Transform({
+  position: new Vector3(0, 20, 10),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002384185791, 1, 1.000002384185791)
+})
+wallPlainBlack85.addComponentOrReplace(transform129)
+
+const wallPlainBlack86 = new Entity('wallPlainBlack86')
+engine.addEntity(wallPlainBlack86)
+wallPlainBlack86.setParent(_scene)
+wallPlainBlack86.addComponentOrReplace(gltfShape5)
+const transform130 = new Transform({
+  position: new Vector3(0, 16, 16),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000019073486328, 1, 1.0000019073486328)
+})
+wallPlainBlack86.addComponentOrReplace(transform130)
+
+const wallPlainBlack87 = new Entity('wallPlainBlack87')
+engine.addEntity(wallPlainBlack87)
+wallPlainBlack87.setParent(_scene)
+wallPlainBlack87.addComponentOrReplace(gltfShape5)
+const transform131 = new Transform({
+  position: new Vector3(0, 16, 14),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002384185791, 1, 1.000002384185791)
+})
+wallPlainBlack87.addComponentOrReplace(transform131)
+
+const wallPlainBlack88 = new Entity('wallPlainBlack88')
+engine.addEntity(wallPlainBlack88)
+wallPlainBlack88.setParent(_scene)
+wallPlainBlack88.addComponentOrReplace(gltfShape5)
+const transform132 = new Transform({
+  position: new Vector3(0, 16, 12),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000026226043701, 1, 1.0000026226043701)
+})
+wallPlainBlack88.addComponentOrReplace(transform132)
+
+const wallPlainBlack89 = new Entity('wallPlainBlack89')
+engine.addEntity(wallPlainBlack89)
+wallPlainBlack89.setParent(_scene)
+wallPlainBlack89.addComponentOrReplace(gltfShape5)
+const transform133 = new Transform({
+  position: new Vector3(0, 16, 10),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002145767212, 1, 1.000002145767212)
+})
+wallPlainBlack89.addComponentOrReplace(transform133)
+
+const wallPlainBlack90 = new Entity('wallPlainBlack90')
+engine.addEntity(wallPlainBlack90)
+wallPlainBlack90.setParent(_scene)
+wallPlainBlack90.addComponentOrReplace(gltfShape5)
+const transform134 = new Transform({
+  position: new Vector3(0, 20, 6),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000028610229492, 1, 1.0000028610229492)
+})
+wallPlainBlack90.addComponentOrReplace(transform134)
+
+const wallPlainBlack91 = new Entity('wallPlainBlack91')
+engine.addEntity(wallPlainBlack91)
+wallPlainBlack91.setParent(_scene)
+wallPlainBlack91.addComponentOrReplace(gltfShape5)
+const transform135 = new Transform({
+  position: new Vector3(0, 20, 8),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002384185791, 1, 1.000002384185791)
+})
+wallPlainBlack91.addComponentOrReplace(transform135)
+
+const wallPlainBlack92 = new Entity('wallPlainBlack92')
+engine.addEntity(wallPlainBlack92)
+wallPlainBlack92.setParent(_scene)
+wallPlainBlack92.addComponentOrReplace(gltfShape5)
+const transform136 = new Transform({
+  position: new Vector3(0, 20, 4),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000030994415283, 1, 1.0000030994415283)
+})
+wallPlainBlack92.addComponentOrReplace(transform136)
+
+const wallPlainBlack93 = new Entity('wallPlainBlack93')
+engine.addEntity(wallPlainBlack93)
+wallPlainBlack93.setParent(_scene)
+wallPlainBlack93.addComponentOrReplace(gltfShape5)
+const transform137 = new Transform({
+  position: new Vector3(0, 20, 2),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000026226043701, 1, 1.0000026226043701)
+})
+wallPlainBlack93.addComponentOrReplace(transform137)
+
+const wallPlainBlack94 = new Entity('wallPlainBlack94')
+engine.addEntity(wallPlainBlack94)
+wallPlainBlack94.setParent(_scene)
+wallPlainBlack94.addComponentOrReplace(gltfShape5)
+const transform138 = new Transform({
+  position: new Vector3(0, 16, 8),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002145767212, 1, 1.000002145767212)
+})
+wallPlainBlack94.addComponentOrReplace(transform138)
+
+const wallPlainBlack95 = new Entity('wallPlainBlack95')
+engine.addEntity(wallPlainBlack95)
+wallPlainBlack95.setParent(_scene)
+wallPlainBlack95.addComponentOrReplace(gltfShape5)
+const transform139 = new Transform({
+  position: new Vector3(0, 16, 6),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000026226043701, 1, 1.0000026226043701)
+})
+wallPlainBlack95.addComponentOrReplace(transform139)
+
+const wallPlainBlack96 = new Entity('wallPlainBlack96')
+engine.addEntity(wallPlainBlack96)
+wallPlainBlack96.setParent(_scene)
+wallPlainBlack96.addComponentOrReplace(gltfShape5)
+const transform140 = new Transform({
+  position: new Vector3(0, 16, 4),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000028610229492, 1, 1.0000028610229492)
+})
+wallPlainBlack96.addComponentOrReplace(transform140)
+
+const wallPlainBlack97 = new Entity('wallPlainBlack97')
+engine.addEntity(wallPlainBlack97)
+wallPlainBlack97.setParent(_scene)
+wallPlainBlack97.addComponentOrReplace(gltfShape5)
+const transform141 = new Transform({
+  position: new Vector3(0, 16, 2),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002384185791, 1, 1.000002384185791)
+})
+wallPlainBlack97.addComponentOrReplace(transform141)
+
+const imageFromURL = new Entity('imageFromURL')
+engine.addEntity(imageFromURL)
+imageFromURL.setParent(_scene)
+const transform142 = new Transform({
+  position: new Vector3(0.5000000596046448, 15.47125244140625, 15.57455825805664),
+  rotation: new Quaternion(-1.8951494833076982e-14, 0.7071068286895752, -8.429368847373553e-8, 0.7071068286895752),
+  scale: new Vector3(28.21380043029785, 6.328243732452393, 1.0000054836273193)
+})
+imageFromURL.addComponentOrReplace(transform142)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
@@ -1228,12 +1591,14 @@ const script3 = new Script3()
 const script4 = new Script4()
 const script5 = new Script5()
 const script6 = new Script6()
+const script7 = new Script7()
 script1.init(options)
 script2.init(options)
 script3.init(options)
 script4.init(options)
 script5.init(options)
 script6.init(options)
+script7.init(options)
 script1.spawn(galleryInfoBlack, {"text":"*The Cryptonauts*\n*Wall of Fame*\nTop 10 Rarest 'Nauts!\n\n(some are not released yet)\n\n**********\nFor our Full Collection...\nCheck us out on Opensea!\nOnly 169 'Nauts available!","fontSize":5,"font":"SF","color":"#FF0000"}, createChannel(channelId, galleryInfoBlack, channelBus))
 script2.spawn(galleryInfoTurquoise, {"text":"Buying a Cryptonaut...\nDo you need ETH?\n\nBuying something else...\nDo you need MANA?\n**********\nRight in front of you is a\nDEX that swaps tokens!\n\nTry it out!","fontSize":5,"font":"SF","color":"#000000"}, createChannel(channelId, galleryInfoTurquoise, channelBus))
 script3.spawn(nftPictureFrame, {"id":"53940826113371738863664428048916424119137335839942175146067211049838447689729","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"To Be Released!"}, createChannel(channelId, nftPictureFrame, channelBus))
@@ -1243,9 +1608,10 @@ script3.spawn(nftPictureFrame4, {"id":"35911602450650732815507569811338836972530
 script3.spawn(nftPictureFrame5, {"id":"53940826113371738863664428048916424119137335839942175146067211053136982573057","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame5, channelBus))
 script3.spawn(nftPictureFrame6, {"id":"53940826113371738863664428048916424119137335839942175146067211054236494200833","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame6, channelBus))
 script3.spawn(nftPictureFrame7, {"id":"53940826113371738863664428048916424119137335839942175146067211055336005828609","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame7, channelBus))
-script3.spawn(nftPictureFrame8, {"id":"53940826113371738863664428048916424119137335839942175146067211056435517456385","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame8, channelBus))
+script3.spawn(nftPictureFrame8, {"id":"53940826113371738863664428048916424119137335839942175146067211056435517456385","contract":"","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame8, channelBus))
 script3.spawn(nftPictureFrame9, {"id":"3591160245065073281550756981133883697253055043835827444440560570522675445761","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"#9 Most Rare Cryptonaut\nOwned by: MaskedMan"}, createChannel(channelId, nftPictureFrame9, channelBus))
 script3.spawn(nftPictureFrame10, {"id":"3591160245065073281550756981133883697253055043835827444440560613403628929025","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"#10 Most Rare Cryptonaut\nOwned by: Still Available!"}, createChannel(channelId, nftPictureFrame10, channelBus))
 script4.spawn(twitterButtonLink, {"url":"@CryptonautsThe","bnw":false,"name":"Follow us on Twitter!"}, createChannel(channelId, twitterButtonLink, channelBus))
 script5.spawn(discordButtonLink, {"url":"channels/818952928634601512/818952928634601515","bnw":false,"name":"Join our Discord!"}, createChannel(channelId, discordButtonLink, channelBus))
 script6.spawn(externalLink, {"url":"https://opensea.io/collection/the-cryptonauts-launchpad-collection","name":"Collect Cryptonauts on Opensea!"}, createChannel(channelId, externalLink, channelBus))
+script7.spawn(imageFromURL, {"image":"https://i.imgur.com/0EyModE.jpg"}, createChannel(channelId, imageFromURL, channelBus))
