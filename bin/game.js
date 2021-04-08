@@ -7048,7 +7048,7 @@ const hexagonalFloorPanel = new Entity('hexagonalFloorPanel')
 engine.addEntity(hexagonalFloorPanel)
 hexagonalFloorPanel.setParent(_scene)
 const transform20 = new Transform({
-  position: new Vector3(13, 0, 4),
+  position: new Vector3(12, 0, 4),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
@@ -8004,7 +8004,7 @@ engine.addEntity(hexagonalFloorPanel2)
 hexagonalFloorPanel2.setParent(_scene)
 hexagonalFloorPanel2.addComponentOrReplace(gltfShape4)
 const transform106 = new Transform({
-  position: new Vector3(13, 0, 27.5),
+  position: new Vector3(12.5, 0, 27.5),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
@@ -8442,7 +8442,7 @@ script1.spawn(galleryInfoBlack, {"text":"*The Cryptonauts*\n*Wall of Fame*\nTop 
 script2.spawn(galleryInfoTurquoise, {"text":"Buying a Cryptonaut...\nDo you need ETH?\n\nBuying something else...\nDo you need MANA?\n**********\nRight in front of you is a\nDEX that swaps tokens!\n\nTry it out!","fontSize":5,"font":"SF","color":"#000000"}, createChannel(channelId, galleryInfoTurquoise, channelBus))
 script3.spawn(nftPictureFrame, {"id":"53940826113371738863664428048916424119137335839942175146067211049838447689729","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"To Be Released!"}, createChannel(channelId, nftPictureFrame, channelBus))
 script3.spawn(nftPictureFrame2, {"id":"53940826113371738863664428048916424119137335839942175146067211050937959317505","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame2, channelBus))
-script3.spawn(nftPictureFrame3, {"id":"53940826113371738863664428048916424119137335839942175146067211052037470945281","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame3, channelBus))
+script3.spawn(nftPictureFrame3, {"id":"3591160245065073281550756981133883697253055043835827444440560684871884734465","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"#3 Most Rare Cryptonaut!\nOnwed by: Still Available!"}, createChannel(channelId, nftPictureFrame3, channelBus))
 script3.spawn(nftPictureFrame4, {"id":"3591160245065073281550756981133883697253055043835827444440560601309001023489","contract":"0x495f947276749Ce646f68AC8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"#4 Most Rare Crytonaut\nOwned by: MaskedMan"}, createChannel(channelId, nftPictureFrame4, channelBus))
 script3.spawn(nftPictureFrame5, {"id":"53940826113371738863664428048916424119137335839942175146067211053136982573057","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame5, channelBus))
 script3.spawn(nftPictureFrame6, {"id":"53940826113371738863664428048916424119137335839942175146067211054236494200833","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame6, channelBus))
