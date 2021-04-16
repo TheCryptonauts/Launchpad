@@ -8403,9 +8403,9 @@ const imageFromURL = new Entity('imageFromURL')
 engine.addEntity(imageFromURL)
 imageFromURL.setParent(_scene)
 const transform142 = new Transform({
-  position: new Vector3(0.5000000596046448, 15.47125244140625, 15.57455825805664),
+  position: new Vector3(0.5, 15.47125244140625, 15.5),
   rotation: new Quaternion(-1.8951494833076982e-14, 0.7071068286895752, -8.429368847373553e-8, 0.7071068286895752),
-  scale: new Vector3(28.21380043029785, 6.328243732452393, 1.0000054836273193)
+  scale: new Vector3(28.213815689086914, 6.328243732452393, 1.0000059604644775)
 })
 imageFromURL.addComponentOrReplace(transform142)
 
@@ -8413,9 +8413,9 @@ const imageFromURL2 = new Entity('imageFromURL2')
 engine.addEntity(imageFromURL2)
 imageFromURL2.setParent(_scene)
 const transform143 = new Transform({
-  position: new Vector3(0, 15.47125244140625, 16.01209259033203),
-  rotation: new Quaternion(-4.160727480866794e-15, 0.7071068286895752, -8.429367426288081e-8, -0.7071068286895752),
-  scale: new Vector3(28.2138614654541, 6.328243732452393, 1.0000073909759521)
+  position: new Vector3(7.977878570556641, 3.3200273513793945, 0.29173025488853455),
+  rotation: new Quaternion(9.53558944722906e-15, 0, 1.3898425765574308e-14, -1),
+  scale: new Vector3(11.607497215270996, 17.660505294799805, 1.0000061988830566)
 })
 imageFromURL2.addComponentOrReplace(transform143)
 
@@ -8440,12 +8440,12 @@ script6.init(options)
 script7.init(options)
 script1.spawn(galleryInfoBlack, {"text":"*The Cryptonauts*\n*Wall of Fame*\nTop 10 Rarest 'Nauts!\n**********\nFor our Full Collection...\nCheck us out on Opensea!\nOnly 169 'Nauts available!\n**********\nContact us:\nTheCryptonauts@yahoo.com","fontSize":5,"font":"SF","color":"#FF0000"}, createChannel(channelId, galleryInfoBlack, channelBus))
 script2.spawn(galleryInfoTurquoise, {"text":"Buying a Cryptonaut...\nDo you need ETH?\n\nBuying something else...\nDo you need MANA?\n**********\nRight in front of you is a\nDEX that swaps tokens!\n\nTry it out!","fontSize":5,"font":"SF","color":"#000000"}, createChannel(channelId, galleryInfoTurquoise, channelBus))
-script3.spawn(nftPictureFrame, {"id":"53940826113371738863664428048916424119137335839942175146067211049838447689729","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"To Be Released!"}, createChannel(channelId, nftPictureFrame, channelBus))
+script3.spawn(nftPictureFrame, {"id":"3591160245065073281550756981133883697253055043835827444440560706862117289985","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"#1 Most Rare Cryptonaut"}, createChannel(channelId, nftPictureFrame, channelBus))
 script3.spawn(nftPictureFrame2, {"id":"53940826113371738863664428048916424119137335839942175146067211050937959317505","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame2, channelBus))
-script3.spawn(nftPictureFrame3, {"id":"3591160245065073281550756981133883697253055043835827444440560684871884734465","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"#3 Most Rare Cryptonaut!\nOnwed by: Still Available!"}, createChannel(channelId, nftPictureFrame3, channelBus))
-script3.spawn(nftPictureFrame4, {"id":"3591160245065073281550756981133883697253055043835827444440560601309001023489","contract":"0x495f947276749Ce646f68AC8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"#4 Most Rare Crytonaut\nOwned by: MaskedMan"}, createChannel(channelId, nftPictureFrame4, channelBus))
+script3.spawn(nftPictureFrame3, {"id":"3591160245065073281550756981133883697253055043835827444440560684871884734465","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"#3 Most Rare Cryptonaut\nOwned by: Still Available!"}, createChannel(channelId, nftPictureFrame3, channelBus))
+script3.spawn(nftPictureFrame4, {"id":"3591160245065073281550756981133883697253055043835827444440560601309001023489","contract":"0x495f947276749Ce646f68AC8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"#4 Most Rare Cryptonaut\nOwned by: MaskedMan"}, createChannel(channelId, nftPictureFrame4, channelBus))
 script3.spawn(nftPictureFrame5, {"id":"53940826113371738863664428048916424119137335839942175146067211053136982573057","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame5, channelBus))
-script3.spawn(nftPictureFrame6, {"id":"53940826113371738863664428048916424119137335839942175146067211054236494200833","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame6, channelBus))
+script3.spawn(nftPictureFrame6, {"id":"3591160245065073281550756981133883697253055043835827444440560721155768451073","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"#6 Most Rare Cryptonaut\nOwned by: Centi"}, createChannel(channelId, nftPictureFrame6, channelBus))
 script3.spawn(nftPictureFrame7, {"id":"53940826113371738863664428048916424119137335839942175146067211055336005828609","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame7, channelBus))
 script3.spawn(nftPictureFrame8, {"id":"53940826113371738863664428048916424119137335839942175146067211056435517456385","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true}, createChannel(channelId, nftPictureFrame8, channelBus))
 script3.spawn(nftPictureFrame9, {"id":"3591160245065073281550756981133883697253055043835827444440560570522675445761","contract":"0x495f947276749ce646f68ac8c248420045cb7b5e","style":"Metal_Slim","color":"#FFFFFF","ui":true,"uiText":"#9 Most Rare Cryptonaut\nOwned by: MaskedMan"}, createChannel(channelId, nftPictureFrame9, channelBus))
@@ -8454,4 +8454,4 @@ script4.spawn(twitterButtonLink, {"url":"@CryptonautsThe","bnw":false,"name":"Fo
 script5.spawn(discordButtonLink, {"url":"channels/818952928634601512/818952928634601515","bnw":false,"name":"Join our Discord!"}, createChannel(channelId, discordButtonLink, channelBus))
 script6.spawn(externalLink, {"url":"https://opensea.io/collection/the-cryptonauts-launchpad-collection","name":"Collect Cryptonauts on Opensea!"}, createChannel(channelId, externalLink, channelBus))
 script7.spawn(imageFromURL, {"image":"https://i.imgur.com/0EyModE.jpg"}, createChannel(channelId, imageFromURL, channelBus))
-script7.spawn(imageFromURL2, {"image":"https://i.imgur.com/0EyModE.jpg"}, createChannel(channelId, imageFromURL2, channelBus))
+script7.spawn(imageFromURL2, {"image":"https://i.imgur.com/hyzyabK.jpg"}, createChannel(channelId, imageFromURL2, channelBus))
